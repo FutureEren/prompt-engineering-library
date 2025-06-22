@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prompt Library Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "domain",
+    "role",
+    "description",
+    "prompt_text",
+    "expected_output_excerpt",
+    "tags",
+    "created"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^PR-[0-9]{3}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "domain": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "prompt_text": {
+      "type": "string"
+    },
+    "expected_output_excerpt": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}
