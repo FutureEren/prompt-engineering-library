@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "id": "PR-001",
+    "title": "First-Principles Explainer",
+    "domain": "Education",
+    "role": "Expert First-Principles Educator",
+    "description": "Break any topic into irreducible truths and rebuild the explanation.",
+    "prompt_text": "Act as an expert who excels at explaining complex subjects by applying First Principles Thinking. Goal: help me understand [Insert Topic]…",
+    "expected_output_excerpt": "Foundational components list and cohesive explanation built from principles.",
+    "tags": ["first-principles", "education", "analysis"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-002",
+    "title": "Study Plan: Day-Trading Mastery",
+    "domain": "Education",
+    "role": "Senior Trading Educator",
+    "description": "Two-year study schedule (20 h/week) from fundamentals to live day-trading.",
+    "prompt_text": "Create a detailed study plan and study schedule for learning stock trading, with a focus on day trading…",
+    "expected_output_excerpt": "24-month roadmap with weekly objectives and resources.",
+    "tags": ["trading", "education", "roadmap"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-003",
+    "title": "\"AI for Dummies\" Digital Product Guide",
+    "domain": "Education",
+    "role": "Beginner-Friendly AI Author",
+    "description": "Write a short eBook demystifying AI with real-world examples.",
+    "prompt_text": "Create a digital product guide titled \"AI for Dummies\"…",
+    "expected_output_excerpt": "Beginner-friendly guide with practical ChatGPT demos.",
+    "tags": ["ai", "digital-product", "beginner"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-004",
+    "title": "Comprehensive Prompt-Engineer Guide",
+    "domain": "Prompt Engineering",
+    "role": "Expert Prompt Engineer & Instructional Designer",
+    "description": "End-to-end career guide from basics to advanced techniques.",
+    "prompt_text": "Develop a comprehensive guide on becoming a successful prompt engineer…",
+    "expected_output_excerpt": "Markdown guide with six prompt patterns and 30-day practice plan.",
+    "tags": ["prompt-engineering", "career", "guide"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-005",
+    "title": "Asset-Class Analysis + Notification System",
+    "domain": "Finance",
+    "role": "Multi-Asset Analyst & Automation Architect",
+    "description": "Compare stocks vs crypto and design alert workflows.",
+    "prompt_text": "Analyze stocks, digital assets, and cryptocurrencies, and create a system for automating notifications…",
+    "expected_output_excerpt": "Comparative table and alert setup steps.",
+    "tags": ["finance", "automation", "analysis"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-006",
+    "title": "$5 000 Robinhood Strategy to Outperform SPY",
+    "domain": "Finance",
+    "role": "Personal-Finance Coach",
+    "description": "Blend stocks and beginner-friendly options to beat S&P 500.",
+    "prompt_text": "Create a comprehensive investment strategy prompt for a user who wishes to outperform SPY…",
+    "expected_output_excerpt": "Sample portfolio and options plays with risk controls.",
+    "tags": ["investing", "options", "risk-management"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-007",
+    "title": "AI-Startup Signals for ARKK",
+    "domain": "Finance",
+    "role": "Top-0.1 % AI-Startup Market Analyst",
+    "description": "X-based signal extraction, sentiment score, and ARKK alignment.",
+    "prompt_text": "Using Think mode and DeepSearch, analyse X discussions on emerging AI startups…",
+    "expected_output_excerpt": "Sentiment score and verified funding signals relevant to ARKK.",
+    "tags": ["ai", "arkk", "sentiment-analysis", "trend-report"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-008",
+    "title": "Business-Idea Extraction & Elaboration",
+    "domain": "Business",
+    "role": "Opportunity Miner",
+    "description": "Extract up to 40 ideas and elaborate 10 pivots.",
+    "prompt_text": "Extract top business ideas from the content, then elaborate 10 pivot ideas…",
+    "expected_output_excerpt": "Numbered list of raw ideas plus expanded pivots.",
+    "tags": ["ideation", "business", "creativity"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-009",
+    "title": "Tool-Instruction Refiner",
+    "domain": "Documentation",
+    "role": "Documentation Specialist",
+    "description": "Turn raw tool docs into concise, example-rich instructions.",
+    "prompt_text": "You are an expert at explaining how to use a tool…",
+    "expected_output_excerpt": "Overview, syntax examples, and option list in Markdown.",
+    "tags": ["documentation", "instruction", "how-to"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-010",
+    "title": "Mermaid Diagram Generator",
+    "domain": "Visualization",
+    "role": "Data & Concept Visualizer",
+    "description": "Convert complex input into high-contrast Mermaid diagrams.",
+    "prompt_text": "Create a visualization using intricate Mermaid syntax…",
+    "expected_output_excerpt": "Render-ready diagram with 10-word explanation bullets.",
+    "tags": ["visualization", "mermaid", "diagram"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-011",
+    "title": "Compassionate Therapy Chat",
+    "domain": "Mental Health",
+    "role": "Empathetic Mental-Health Guide",
+    "description": "Grounding check-ins, CBT reframes, safety-first flow.",
+    "prompt_text": "Help me understand emotions using proven therapy tools…",
+    "expected_output_excerpt": "Supportive dialogue with grounding exercise.",
+    "tags": ["mental-health", "coaching", "cbt"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-012",
+    "title": "Rapid Project Scaffolder",
+    "domain": "Programming",
+    "role": "Elite Programmer",
+    "description": "Generate secure, modern codebase with setup script.",
+    "prompt_text": "You are an elite programmer… output PROJECT, SUMMARY, STEPS, STRUCTURE, CODE…",
+    "expected_output_excerpt": "Multi-file codebase and one-command setup script.",
+    "tags": ["code-generation", "scaffolding", "best-practices"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-013",
+    "title": "Article-to-Twitter Thread",
+    "domain": "Social Media",
+    "role": "Social-Media Content Strategist",
+    "description": "Convert long-form article into engaging multi-tweet thread.",
+    "prompt_text": "Read the article, analyse key points, create a Twitter thread…",
+    "expected_output_excerpt": "10-tweet thread ending with interactive question.",
+    "tags": ["twitter", "content", "social-media"],
+    "created": "2025-06-22"
+  },
+  {
+    "id": "PR-014",
+    "title": "Study Booklet: Open-Source Innovation",
+    "domain": "Education",
+    "role": "Curriculum Developer",
+    "description": "Standalone booklet with TOC and real-world applications.",
+    "prompt_text": "Create a study booklet on “Open Source Innovation”…",
+    "expected_output_excerpt": "Book-style Markdown with examples and further reading.",
+    "tags": ["open-source", "booklet", "curriculum"],
+    "created": "2025-06-22"
+  }
+]
